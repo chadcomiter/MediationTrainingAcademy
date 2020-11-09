@@ -33,7 +33,10 @@
 
     <div class="v-header container">
         <div class="fullscreen-video-wrap">
-            <video src="video.mp4" autoplay="true" loop="true" controls></video>
+            <video class="vid" src="video.mp4" autoplay="true" loop="true" controls></video>
+            <script>
+                document.getElementById('vid').play();
+            </script>
         </div>
         <div class="header-overlay"></div>
         <div class="header-content">
