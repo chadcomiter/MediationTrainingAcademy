@@ -56,6 +56,7 @@ var tenDayProgram = document.querySelector('#tenDayProgram-btn');
 var programNav = document.querySelector('#program-btn');
 var faqNav = document.querySelector('#faq-btn-nav');
 var instructorNav = document.querySelector('#instructor-btn');
+var header = document.querySelector('#v-header');
 //Event Listeners
 
 ourPrograms.addEventListener('click', function(){
@@ -75,7 +76,10 @@ instructorNav.addEventListener('click', function(){
 });
 tenDayProgram.addEventListener('click', function(){
     smoothScroll('.program2', 850);
-})
+});
+header.addEventListener('click', function(){
+    smoothScroll('.fullscreen-video-wrap', 850);
+});
 
 const main = () => {
     navSlide();

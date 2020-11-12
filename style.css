@@ -141,7 +141,14 @@ nav{
     bottom: 5px;
     font-size: 22px;
 }
+.logo a{
+    color: white;
+}
 
+.logo a:hover{
+    text-decoration: none;
+    color: white;
+}
 .nav-links{
     display: flex;
     justify-content: space-around;
@@ -363,6 +370,11 @@ header{
 .program2 .program-content{
     position: relative;
     bottom: 40px;
+}
+
+.program1 .program-content{
+    position: relative;
+    bottom: 30px;
 }
 
 .instructors{
