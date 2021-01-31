@@ -139,7 +139,7 @@ nav{
     position: relative;
     left: 5px;
     bottom: 5px;
-    font-size: 22px;
+    font-size: 20px;
 }
 .logo a{
     color: white;
@@ -152,7 +152,7 @@ nav{
 .nav-links{
     display: flex;
     justify-content: space-around;
-    width: 63%;
+    width: 60%;
 }
 
 .nav-links a{
@@ -257,7 +257,7 @@ nav{
 
 .program1{
 
-    padding-top: 3rem;
+    padding-top: 5rem;
     height: 450vh;
     width: 100%;
     background-color: #0d0d36;
@@ -345,7 +345,7 @@ header{
     font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;;
     text-decoration: none;
-    padding-left: 1rem;
+    padding-left: 2.5rem;
     font-size: 15px;
     padding-top: 1.4rem;
 }
@@ -471,12 +471,22 @@ header{
         margin: 0px;
     }
     body{
+        margin: 0;
+        font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #333;
         overflow-x: hidden;
     }
     .nav-logo{
         display: relative;
         top: 5px;
         left: 20px;
+    }
+    .registration-button{
+        position: absolute;
+        top: 725px;
+        right: 300px;
     }
     .nav-links{
         position: absolute;
@@ -504,34 +514,32 @@ header{
         display: none;
     }
     .programs{
-        width: 32rem;
+        width: 33rem;
         display: flex;
         top: 35rem;
     }
     .instructors{
         display: flex;
         flex-direction: column;
-        width: 32rem;
-        top: 90rem;
+        width: 33rem;
+        top: 88rem;
     }
     .instructor-about{
-        width: 32rem;
+        width: 33rem;
+        height: 200vh;
+    }
+    .instructor-about p{
+        position: relative;
+        width: 60%;
+        height: 90%;
     }
     .faq{
+        position: relative;
         display: flex;
-        top: 135rem;
+        top: 150rem;
         flex-direction: column;
-        width: 32rem;
-        height: 350vh;
-    }
-    .faq-header{
-        position: relative;
-        padding-top: 50px;
-    }
-    .faq-container{
-        position: relative;
-        width: 100%;
-        top: 50px;
+        width: 33rem;
+        height: 100%;
     }
     .accordion{
         width: 100%;
